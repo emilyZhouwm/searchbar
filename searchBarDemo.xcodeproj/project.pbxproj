@@ -14,6 +14,7 @@
 		EB007AD11B180E8900264E82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB007AD01B180E8900264E82 /* Images.xcassets */; };
 		EB007AD41B180E8A00264E82 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB007AD21B180E8A00264E82 /* LaunchScreen.xib */; };
 		EB007AE01B180E8A00264E82 /* searchBarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB007ADF1B180E8A00264E82 /* searchBarDemoTests.m */; };
+		EB007AEB1B180EC800264E82 /* WMSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EB007AEA1B180EC800264E82 /* WMSearchBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		EB007AD91B180E8A00264E82 /* searchBarDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = searchBarDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB007ADE1B180E8A00264E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB007ADF1B180E8A00264E82 /* searchBarDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = searchBarDemoTests.m; sourceTree = "<group>"; };
+		EB007AE91B180EC800264E82 /* WMSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMSearchBar.h; sourceTree = "<group>"; };
+		EB007AEA1B180EC800264E82 /* WMSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMSearchBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				EB007ACD1B180E8900264E82 /* Main.storyboard */,
 				EB007AD01B180E8900264E82 /* Images.xcassets */,
 				EB007AD21B180E8A00264E82 /* LaunchScreen.xib */,
+				EB007AE91B180EC800264E82 /* WMSearchBar.h */,
+				EB007AEA1B180EC800264E82 /* WMSearchBar.m */,
 				EB007AC31B180E8900264E82 /* Supporting Files */,
 			);
 			path = searchBarDemo;
@@ -222,6 +227,7 @@
 				EB007ACC1B180E8900264E82 /* ViewController.m in Sources */,
 				EB007AC91B180E8900264E82 /* AppDelegate.m in Sources */,
 				EB007AC61B180E8900264E82 /* main.m in Sources */,
+				EB007AEB1B180EC800264E82 /* WMSearchBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
